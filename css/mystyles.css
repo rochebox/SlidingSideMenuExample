@@ -1,0 +1,96 @@
+@font-face {
+    font-family: deftone;
+    src: url(../fonts/DEFTONE.ttf);
+}
+
+@font-face {
+    font-family: barrio;
+    src: url(../fonts/barrio.ttf);
+}
+
+
+@font-face {
+    font-family: daniel;
+    src: url(../fonts/daniel-regular.ttf);
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	/* background-color: #484043; */
+	background-color: #EAD3A8;
+}
+
+h1{
+ 	font-family: daniel;
+	margin:0;
+	background-color: crimson;
+	text-align: center;
+	font-size: 2.75em;
+	padding-top:70px;
+	color: cyan;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	font-family: barrio;
+	height: 64px;
+	line-height: 64px;
+
+}
+span{
+	height: 64px;
+	line-height: 64px;
+	font-size: 40px;
+	color: #5A79A5;
+	
+}
+span:hover{
+color: #FAF93C;
+}
+img{
+	vertical-align: middle;
+	padding-right:40;
+}
+
+
+.floatIt{
+
+	float: left;
+	/* border: 2px solid blue; */
+	height: 500px;
+}
+
+#leftSide{
+	width: 64px;
+	border-radius: 0px 30px 30px 0px;
+
+	background-color: #6E6568;
+	margin: 0;
+}
+
+#rightSide{
+	width: 92%;
+	background-color: #EAD3A8;
+}
+
+#icon1{
+	list-style-image: url('images/icon9.png');
+}
+
+.shiftLeft{
+	width: 40%;
+}
+
+.shiftRight{
+	width: 59%;
+}
+
